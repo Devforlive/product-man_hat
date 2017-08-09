@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600italic,900);
+
+body{
+font: 300 24px/1.5 'Raleway', sans-serif;
+color:#303030;
+background: #eeeeee;
+}
+
+.box-container{
+	padding-left: 16px;
+	padding-right: 16px;
+	max-width: 1230px;
+}
+
+.box-menu {
+	margin-top: 20px;
+	list-style: none;
+}
+
+.box-menu li {
+	float:left;
+	margin-left:50px;
+}
+
+.box-menu a {
+	color:  #303030;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	padding: 10px;
+}
+
+.box-logo {
+	color: #303030;
+    font-size: 48px;
+}
+
+.boxes a {
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.box-header {
+	padding-top: 48px;
+	padding-bottom: 105px;
+}
+.box-typo {
+	text-align: right;
+	width: 60%;
+}
+
+.box-typo h2 {
+	margin: 0;
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 1;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.box-button {
+	text-decoration:none;
+	color:red;
+	text-align: right;
+}
+
+.box-typo a:hover {
+	text-decoration: underline;
+}
+
+
+.box-nav {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  /*font-size: 0;*/
+  text-align: center;
+}
+.box-nav li {
+  display: inline-block;
+  font-size: 16px;
+}
+.box-nav button {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border-radius: 50px;
+  border: 0;
+  background-color: darkgrey/*rgba(255, 255, 255, .5)*/;
+  transition: all .3s ease;
+}
+
+.box-nav button.active {
+  background-color: red;
+}
+.box-nav button:focus {
+  outline: none;
+}
+.box-nav button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+.box-nav li:nth-child(2) button {
+  margin: 0 7px;
+}
+.box-nav button span {
+  visibility: hidden;
+  position: absolute;
+}
