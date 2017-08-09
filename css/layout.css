@@ -1,0 +1,32 @@
+
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.lastbox:before, .lastbox:after {
+    content: " ";
+    display: table;
+}
+
+.lastbox:after {
+    clear: both;
+}
+
+
+
+/* Флоаты */
+
+.box-left {
+    float: left;
+}
+
+.box-right {
+    float: right;
+}
+
+
+
+
